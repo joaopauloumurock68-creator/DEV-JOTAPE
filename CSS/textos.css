@@ -1,0 +1,24 @@
+/*POSSO IMPORTAR AS FONTES TANTO POR HTML, VIA LINK, OU POR CSS VIA, @IMPORT.*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1 {
+    color: red;
+    font-size: 64px;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    text-shadow: 5px 5px 3px blue;
+}
+
+p{
+    color: blueviolet;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    line-height: 50px;
+    letter-spacing: 40px;
+    text-align: justify;
+    text-transform: capitalize;
+    text-decoration: underline;
+}

@@ -1,0 +1,26 @@
+/*{
+    box-sizing: ;
+}
+*/
+.box {
+    width: 100px;
+    height: 100px;
+    background: #ff1493;
+
+
+
+    /* A PARTIR DAQUI ESSAS INFORMAÇÕES SERVEM TANTO PARA MARGIN QUANTO PARA PADDING*/
+
+
+    margin-top: 20px; /*em cima*/
+    margin-bottom: 30px; /*em baixo*/
+    margin-right: 10px; /* direita*/
+    margin-left: 5px; /* esquerda*/
+
+    /* E TAMBÉM PODEMOS ABREVIAR */
+    padding: 10px 50px 30px 5px;
+    /*       12h  15h  18h  21h     */
+    
+}
+
+/* BOX SIZING, 95% DAS VEZES VAMOS UTILIZAR ELE, POIS ELE AJUDA A ORGANIZAR E GUARDAR AS COISAS QUE VAMOS INCLUINDO NO NOSSO CÓDIGO*/

@@ -1,0 +1,43 @@
+/*  VAMOS FALAR DE POSITION
+
+    POSITION: STATIC 9PADRÃO) - NÃO ACEITA VALORES DE TOP, BOTTOM, RIGHT E LEFT
+    POSITION: FIXED - FIXA O ELEMENTO NA TELA
+    POSITION: STICKY - AGE COMO UM ADESIVO, FIXA O ELEMENTO SÓ ONDE EU DETERMINAR
+    POSITION: RELATIVE - POSIÇÃO RELATIVA A POSIÇÃO INICIAÇ DELE
+    POSITION: ABSOLUTE - POSIÇÃO ABSOLUTA A ALGUM ELEMTNO OU A OPAGINA
+            SE NÃO TIVER PAI / PAI FOR STATIC -> POSICIONA REFERENTE A PAGINA
+            SE O PAI NÃO FOR STATIC -> POSICIONA REFERENTE AO PAI
+
+    PROPRIEDADES:
+        - TOP
+        - BOTTOM
+        - LEFT
+        - RIGHT
+        */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 200vh;
+    width: 200vw;
+}
+
+.div-dad{
+    height: 350px;
+    width: 350px;
+    background: #ff1396;
+}
+
+.div-son{
+    height: 150px;
+    width: 150px;
+    background: #ffff00
+}
+
+.chamaaaa{
+    background: #ff0000;
+    height: 100px;
+    width: 100px;
+}
